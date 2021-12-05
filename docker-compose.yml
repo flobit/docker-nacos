@@ -1,0 +1,6 @@
+services:
+  nacos:
+    container_name: nacos
+    image: nacos:2.0
+    network_mode: host
+    restart: always
